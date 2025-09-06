@@ -106,7 +106,7 @@
         <a class="menu-toggle mobile-visible">
           <i class="fa fa-bars"></i>
         </a>
-        <a class="menu-icon mobile-visible" target="_blank" href="https://baladocs.s3.ap-south-1.amazonaws.com/resume/Balakumar+Velusamy+Technical+Lead+Engineer+2024.pdf">
+        <a class="menu-icon mobile-visible" target="_blank" href="https://baladocs.s3.ap-south-1.amazonaws.com/resume/Balakumar+Velusamy+Fullstack.pdf">
           <i class="fa fa-download"></i>
         </a>
         <a class="menu-icon mobile-visible" href="#contact">
@@ -144,7 +144,7 @@
                         <h1>Balakumar Velusamy</h1>
                         <div class="owl-carousel text-rotation">
                           <div class="item">
-                            <div class="sp-subtitle">Technical Lead / Architect (AWS Certified) @ TCS </div>
+                            <div class="sp-subtitle">Lead Site Reliability Engineer / Techincal Architect (3X AWS Certified) </div>
                           </div>
                          
                         </div>
@@ -159,7 +159,7 @@
                           ><i class="fa fa-linkedin"></i
                         ></a>
                         
-         <a target="_blank" href="https://baladocs.s3.ap-south-1.amazonaws.com/resume/Balakumar+Velusamy+Technical+Lead+Engineer+2024.pdf" ><i class="fa fa-download"></i
+         <a target="_blank" href="https://baladocs.s3.ap-south-1.amazonaws.com/resume/Balakumar+Velusamy+Fullstack.pdf" ><i class="fa fa-download"></i
                         ></a>
                       </div>
                     </div>
@@ -167,51 +167,61 @@
                 </div>
 
                 <div class="page-content">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+                       <div class="col-sm-12 col-md-12 col-lg-12">
                       <div class="about-me">
                         <div class="block-title">
                           <h3>About <span>Me</span></h3>
                         </div>
                         <p>
-                         Hello! I'm <b>Balakumar Velusamy</b>. I am a Technical Lead Engineer/Architect with extensive <b>Frontend experience</b>, currently working at TCS. I have 12+ years of professional development and technical support experience, along with 4+ years of overall management experience. I am passionate about developing innovative solutions that enhance efficiency and drive organizational success. 
+                         Hello! I'm <b>Balakumar Velusamy</b>. I am a Lead Site Reliability Engineer/Techinical Architect with extensive <b>Frontend experience</b>. I have 12+ years of professional development and technical support experience, along with 4+ years of overall management experience. I am passionate about developing innovative solutions that enhance efficiency and drive organizational success. 
                          
                        
                         </p>
-                        <p>  Experienced in <b>Cloud Computing Technologies</b> that involves Designing & Developing the Scalable and Reliable systems. I'm a skilled leader who has the proven ability to motivate, educate and manage a team of professionals to drive many successful programs. </p>
+                        <p>  Experienced in <b>Cloud Computing Technologies</b> that involves Designing, Developing, Architect the Scalable and Reliable systems. I'm a skilled leader who has the proven ability to motivate, educate and manage a team of professionals to drive many successful programs. </p>
+                        <p>Experianced in devoloping <b>Artificial Intellegence Apps</b>, using AWS Bedrock, Open AI, Gemini API. Below is the link for the AI app.</p>
                         <p>Confident communicator, strategic thinker, and innovative creator to develop software that is customized to meet a company's organizational needs, highlight it's core competencies, and further it's success.</p>
                       </div>
                       <div class="download-resume">
                       
                           <!-- <a href=" https://baladocs.s3.ap-south-1.amazonaws.com/resume/narpavi+-+Forte+Q1+2023.pdf" target="_blank" class="btn btn-secondary m-1">Amazon Forte Feedback</a> -->
                       </div>
-                      <div class="download-resume">
-                        
-                        <a href="#resume" class="btn btn-secondary m-1">Next >></a>
-                      </div>
+                     
                     </div>
+                  <div class="row">
+               
 
-                    <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
                       <ul class="info-list">
+                       <li>
+  <span class="title">Experience:</span>
+  <span class="value1" id="experience"></span>
+</li>
+
+<script>
+  function calculateExperience(startDate) {
+    const start = new Date(startDate);
+    const today = new Date();
+
+    let years = today.getFullYear() - start.getFullYear();
+    let months = today.getMonth() - start.getMonth();
+
+    if (months < 0) {
+      years--;
+      months += 12;
+    }
+
+    return `${years} Years ${months} Months`;
+  }
+
+  // Set start date: 23-Feb-2012
+  document.getElementById("experience").textContent =
+    calculateExperience("2012-02-23");
+</script>
                         <li>
-                          <span class="title">Age</span
-                          ><span class="value1">34</span>
-                        </li>
-                        <li>
-                          <span class="title">Residence</span
+                          <span class="title">Location</span
                           ><span class="value1">Nashville, TN, United States</span>
                         </li>
-                        <!-- <li>
-                          <span class="title">Address Line1</span
-                          ><span class="value1">1601 Hunnington Pl, Apt 01, Louisville</span>
-                        </li>
-                        <li>
-                          <span class="title">Address Line2</span
-                          ><span class="value1"
-                            >KY- 40220
-                          </span>
-                        </li> -->
-                        
+                 
                         <li>
                           <span class="title">E-mail</span
                           ><span class="value"
@@ -220,10 +230,7 @@
                             ></span
                           >
                         </li>
-                        <!-- <li>
-                          <span class="title">Phone</span
-                          ><span class="value">+91-6383933594</span>
-                        </li> -->
+                     
                         <li>
                           <span class="title">Contact</span
                           ><span class="value1 available">+1-502-210-8598</span>
@@ -249,33 +256,84 @@
                           >
                         </li>
                         <li>
-                          <span class="title">Developed App</span
+                          <span class="title">IOS React App</span
                           ><span class="value"
                             ><a href="https://apps.apple.com/us/app/pocket-apps-hub/id6738062260"
                             target="_blank"
                               >Pocket App IOS</a
                             ></span
-                          >   <span class="value"
-                            ><a href="https://play.google.com/store/apps/details?id=com.pocketapps&pcampaignid=web_share"
+                          >   
+                        </li>
+                              <li>
+                          <span class="title">Android App</span
+                          ><span class="value"
+                            ><a href="https://apps.apple.com/us/app/pocket-apps-hub/id6738062260"
                             target="_blank"
-                              >Andriod</a
+                              >Pocket App Android</a
                             ></span
-                          >
+                          >   
                         </li>
                          <li>
                           <span class="title">Recipe AI App</span
                           ><span class="value"
                             ><a href="https://apps.apple.com/us/app/recipe-ai-cooking-assistant/id6741011254"
                             target="_blank"
-                              >IOS</a
+                              >IOS App, Click here</a
                             ></span
                           >   
-                        </li>
+                      
                        
                         
                       </ul>
+                      
                     </div>
+                    <div class="col-sm-12 col-md-12 col-lg-12"><ul class="info-list">
+                         <li>
+                              <b >Programming Languages:</b>
+                              <span class="value1">Python, C#, .NET, React Js, Node.js, WCF, API</span>
+                            </li>
+                            <li>
+                              <b >Databases:</b>
+                              <span class="value1">SQL Server, AWS DynamoDB, Firebase</span>
+                            </li>
+                            <li>
+                              <b>Web Development:</b>
+                              <span class="value1">JavaScript, React, HTML/CSS, UI/UX, Mobile App Development, React Native</span>
+                            </li>
+                            <li>
+                              <b>Technology:</b>
+                              <span class="value1">Git, Amazon Web Services (AWS), Kubernetes</span>
+                            </li>
+                            <li>
+                              <b>Scripting Languages:</b>
+                              <span class="value1">Linux, JavaScript</span>
+                            </li>
+                            <li>
+                              <b>Monitoring:</b>
+                              <span class="value1">Dynatrace, Splunk, CloudWatch, DataDog</span>
+                            </li>
+                            <li>
+                              <b>Cloud:</b>
+                              <span class="value1">AWS Services, Lambda, SQS, Amplify, SES, CloudWatch, AWS Bedrock, AWS Lex, Route53, API Gateway</span>
+                            </li>
+                            <li>
+                              <b>Tools:</b>
+                              <span class="value1">SSIS, SolarWinds, OpenAI, Gemini API, Git, Kubernetes</span>
+                            </li>
+                            <li>
+                              <b>Artificial Intelligence:</b>
+                              <span class="value1">AWS Bedrock, OpenAI, Gemini API</span>
+                            </li>
+                            <li>
+                              <b>Management Skills:</b>
+                              <span class="value1">Agile – Scrum, Resource Management, Sprint Planning</span>
+                            </li>
+                      </ul></div>
                   </div>
+                   <div class=" row download-resume">
+                        
+                        <a href="#resume" class="btn btn-secondary m-1">Next >></a>
+                      </div>
                 </div>
               </div>
             </section>
@@ -298,9 +356,9 @@
                         <div class="timeline">
                           <!-- Experience 1 -->
                           <div class="timeline-item">
-                            <h4 class="item-title">Technical Lead Engineer/Architect @ TCS, Humana, US</h4>
+                            <h4 class="item-title">Lead Site Reliability Engineer/Technical Architect @ TCS, Humana, US</h4>
                             <span class="item-period">Feb 2016 - Present</span>
-                             <!-- <span class="item-period">Amazon Manager POC: @nitnaras, @thirusub ; Amazon HR POC:  @nampai</span> -->
+                    
                   
                             <ul>  
                               <b>Domain and Technologies:</b>
@@ -584,6 +642,10 @@
                           <div class="skill-container">
                             <div class="skill-percentage skill-9"></div>
                           </div>
+                           <h4>AI</h4>
+                          <div class="skill-container">
+                            <div class="skill-percentage skill-8"></div>
+                          </div>
                           <h4>Cloud Solutions Architecture : AWS, AZURE</h4>
                           <div class="skill-container">
                             <div class="skill-percentage skill-2"></div>
@@ -631,7 +693,7 @@
                     <div class="col-sm-12 col-md-12 col-lg-12">
                       <div class="block">
                         <div class="center download-resume">
-                          <a href="https://baladocs.s3.ap-south-1.amazonaws.com/resume/Balakumar+Velusamy+Technical+Lead+Engineer+2024.pdf" target="_blank" class="btn btn-secondary m-1"
+                          <a href="https://baladocs.s3.ap-south-1.amazonaws.com/resume/Balakumar+Velusamy+Fullstack.pdf" target="_blank" class="btn btn-secondary m-1"
                             >Download Resume</a> 
                         </div>
                          <div class="center download-resume">
@@ -944,6 +1006,41 @@
                           <div class="timeline-item">
                             <h4 class="item-title">My Key Learning Projects:</h4>
                             <span class="item-period">2012 - Present</span>
+<p style="margin-left:0; margin-right:0; text-align:start">
+  <strong>TALENT SYNC AI CHAT BOT - RESUME AND PROJECT DOCS ANALYZER</strong>
+</p>
+
+<p>
+  The “Talent Sync AI Chat Bot - Resume and Project Docs Analyzer” is a smart AI-powered chatbot system designed to interactively analyze and provide insights from large repositories of unstructured documents stored in Amazon S3. Whether it’s thousands of resumes, HR spreadsheets, or project documentation files, this solution leverages natural language interfaces to extract valuable answers from these documents. Users can query the system with everyday language questions like “Who has Node.js experience?” or “What server is used for this application?”, and the chatbot returns precise, contextual answers. Built using <strong>Amazon Bedrock</strong>, <strong>Amazon Lex</strong>, <strong>AWS Lambda</strong>, and secured via <strong>IAM</strong> and <strong>S3</strong>, this system is intended to be scalable, intelligent, and highly secure.
+</p>
+
+<ul style="margin-left:0; margin-right:0">
+  <li>Enables HR teams and project managers to quickly find relevant skills and information without manually browsing through thousands of files.</li>
+  <li>Leverages <strong>Amazon Bedrock</strong> for generative AI, <strong>Amazon Lex</strong> for conversational interface, and <strong>AWS Lambda</strong> for backend logic with secure storage in <strong>S3</strong>.</li>
+  <li>Architecture focuses on scalability, automation, and fine-grained security with IAM roles and policies.</li>
+</ul>
+
+<p style="margin-left:0; margin-right:0; text-align:center">
+  <img src="images/talent.jpg" alt="Talent Sync AI Chat Bot Architecture" style="max-width:90%; height:auto; border:1px solid #ddd; border-radius:8px; padding:5px;" />
+</p>
+
+<p style="margin-left:0; margin-right:0; text-align:start">
+  <strong>RECIPE AI FOOD CURATOR &amp; CALORIE CALCULATOR</strong>
+</p>
+
+<p>
+  The AI Food Curator and Calorie Counter is a web app that helps users track daily calorie and nutrient intake by simply uploading or capturing meal images. The AI analyzes food to identify name, portion size, calories, carbs, proteins, and fats, with an easy-to-read breakdown. 
+</p>
+
+<ul style="margin-left:0; margin-right:0">
+  <li>Suggests recipes with images based on given ingredients.</li>
+  <li>Future enhancements include personalized nutrition guidance, healthier alternatives, and preparation details.</li>
+  <li>Initiative aimed at reducing health risks, medical claims, and overall healthcare costs.</li>
+</ul>
+<p style="margin-left:0; margin-right:0; text-align:center">
+  <img src="images/recipeai.png" alt="Talent Sync AI Chat Bot Architecture" style="max-width:90%; height:auto; border:1px solid #ddd; border-radius:8px; padding:5px;" />
+</p>
+
 
 <p style="margin-left:0; margin-right:0; text-align:start"><a href="https://github.com/bala-website-development/talesofsuba-infra-cdk"><strong>CURRENTLY DEVELOPING CDK STACK FOR MY OWN BLOGGING WEBSITE</strong></a></p>
 
@@ -953,6 +1050,8 @@
 	<li>Developing and automating the infrastructure of my website and working on creating a Restful service using <strong>API Gateway</strong> to send blogging content in JSON format to <strong>Queuing service</strong> that helps in the scalability of my application which furthers then hits <strong>lambda</strong> to process the valid data and then stores it back to the DynamoDB. All of the Blog Content is stored in <strong>S3</strong> and the metadata is handled by <strong>DynamoDB</strong> and Monitoring the application is done by configuring the Cloudwatch. Further on Planning to Extend it to use <strong>AWS Step functions</strong> to orchestrate the workflows and extend the blogging articles subscription services via SES mail.</li>
 	<li>My Blogging Website which is currently under development is based on the NextJS framework which I am currently exploring that uses the above AWS Services as the backend. Here is the link to <a href="https://www.talesofsuba.com/">my blogging website</a></li>
 </ul>
+
+
 
 <p style="margin-left:0; margin-right:0; text-align:start"><a href="https://github.com/bala-website-development/GooglePhotosSyncScript/tree/main"><strong>AUTOMATED SYNCING GOOGLE PHOTOS TO ALBUM</strong></a></p>
 
