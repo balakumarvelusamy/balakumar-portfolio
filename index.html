@@ -376,10 +376,34 @@
                               <b>Cloud Technology and Monitoring Services:</b>
                               Git, AWS, GCP, Azure, Dynatrace, Splunk, CloudWatch
                             </ul>
-                            <ul>  
-                               <a href="https://baladocs.s3.ap-south-1.amazonaws.com/resume/My+Roles+and+Responsibilities+as+an+Technical+Lead+Engineer+-+BV.docx" target="_blank">My Roles & Responsibilities of Technical Lead Engineer</a>
+                         
+                              <!-- Link Trigger -->
+<ul>
+  <a href="#" onclick="openPopup()">My Roles & Responsibilities of Technical Lead Engineer</a>
+</ul>
+
+<!-- Popup Modal -->
+<div id="popupModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closePopup()">&times;</span>
+    <h2>My Roles and Responsibilities as a Technical Lead Engineer</h2>
+    <ul>
+      <li>
+        Lead, Develop and manage the maintenance and enhancement of Clinical healthcare applications in Responsible Web Design (RWD) format for the Clinical Guidance Exchange with a team of 10+ Software Engineers using the Agile Methodology
+      </li>
+      <li>Operating autonomously, I lead multiple engineering teams through challenging, cross-functional projects, steering them from conception to completion while ensuring top-tier results in efficiency, compliance, security, testability, maintainability, and defect reduction.</li>
+      <li>I oversee a compact program, collaborating with technical managers to allocate resources, define project scopes, establish priorities and milestones, and drive timely delivery to achieve program objectives.</li>
+      <li>Proficiently translating abstract ideas into precise, coherent, and accurate technical documentation and directives is among my core strengths.</li>
+      <li>I adeptly serve as the liaison between my team's systems and both technical and non-technical stakeholders, effectively communicating their intricacies to diverse audiences.</li>
+      <li>By effectively managing project scopes, swiftly resolving obstacles, and making decisive decisions, I expedite progress and enhance operational effectiveness within engineering endeavors.</li>
+      <li>I drive enhancements in team processes and performance metrics, unlocking delivery potential, fostering innovation, cutting costs, and enhancing quality.</li>
+      <li>Taking ownership of project status communication, I consistently deliver clear and concise summaries to leadership, while also being adept at providing detailed responses to inquiries.</li>
+      <li>I cultivate positive relationships with engineers, managers, and peers, actively engaging in constructive dialogue to reconcile differing perspectives and promote collaboration.</li>
+    </ul>
+  </div>
+</div>
                              
-                            </ul>
+                           
                           </div>
                           <!-- / Experience 1 -->
 
@@ -1346,5 +1370,66 @@
     ></script>
     <script type="text/javascript" src="js/jquery.googlemap.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    !-- Styles -->
+<style>
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 80px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: rgba(0,0,0,0.6);
+  }
+
+  .modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 70%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    animation: fadeIn 0.3s;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .close:hover {
+    color: #000;
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+</style>
+
+<!-- Script -->
+<script>
+  function openPopup() {
+    document.getElementById("popupModal").style.display = "block";
+  }
+
+  function closePopup() {
+    document.getElementById("popupModal").style.display = "none";
+  }
+
+  // Close modal when clicking outside content
+  window.onclick = function(event) {
+    const modal = document.getElementById("popupModal");
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
   </body>
 </html>
